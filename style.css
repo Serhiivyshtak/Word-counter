@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #a5c0ff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.textarea {
+    margin-top: 5vw;
+    width: 50vw;
+    height: 20vw;
+    resize: none;
+    outline: none;
+    border: 2px solid yellow;
+    border-radius: 1vw;
+    padding: 1vw;
+    font-size: 2vw;
+}
+.output {
+    margin-top: 2vw;
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+.counter {
+    font-size: 2vw;
+}
+
+
+@media screen and (max-width: 1000px) {
+   .textarea {
+    width: 90vw;
+    height: 40vw;
+    font-size: 3vw;
+   } 
+   .counter {
+    font-size: 3vw;
+   }
+}
+@media screen and (max-width: 600px) {
+    .textarea {
+        width: 90vw;
+        height: 60vw;
+        font-size: 5vw;
+       } 
+       .counter {
+        font-size: 5vw;
+       }
+}
